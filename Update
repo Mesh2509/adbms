@@ -1,0 +1,68 @@
+sthudents> db.Student_Information.updateOne({"Roll_No":8},{$set:{"Name":'Kamat Dhruti'}})
+
+{
+
+ acknowledged: true,
+
+ insertedId: null,
+
+ matchedCount: 1,
+
+ modifiedCount: 1,
+
+ upsertedCount: 0
+
+}
+
+sthudents> db.Student_Information.updateOne({"Roll_No":5},{$set:{"Name":'Kamble Dheeraj'}})
+
+// updateOne query
+
+{
+
+ acknowledged: true,
+
+ insertedId: null,
+
+ matchedCount: 1,
+
+ modifiedCount: 1,
+
+ upsertedCount: 0
+
+}
+
+sthudents> db.Student_Information.updateMany({"Roll_No":4},{$set:{"Name":'Kamble 
+
+Viraj',"Email_ID":'kamble_viraj@gmail.com'}}) // updateMany Query
+
+{
+
+ acknowledged: true,
+
+ insertedId: null,
+
+ matchedCount: 1,
+
+ modifiedCount: 1,
+
+ upsertedCount: 0
+
+}
+
+sthudents> db.Student_Information.updateMany({"Roll_No":4},{$set:{"Name":'Sam 
+
+Manchekar',"Email_ID":'sam_manchekar@gmail.com'}})
+
+{
+
+ acknowledged: true,
+
+ insertedId: null,
+
+ matchedCount: 1,
+modifiedCount: 1,
+
+ upsertedCount: 0
+
+}

@@ -1,0 +1,55 @@
+RMDSTIC> var mycursor1=db.students.find({"branch":"IT"}).pretty()
+
+RMDSTIC> mycursor1
+
+[
+
+ {
+
+ _id: ObjectId("6527ff67e2012aef74f6a8e8"),
+
+ name: 'Taniya',
+
+ age: 20,
+
+ branch: 'IT',
+
+ course: 'ADBMS',
+
+ fees: 1500
+
+ },
+
+ {
+
+ _id: ObjectId("6527ff67e2012aef74f6a8ea"),
+
+ name: 'Dheeraj',
+
+ age: 20,
+
+ branch: 'IT',
+
+ course: 'ADBMS',
+
+ fees: 1500
+
+ },
+
+ {
+
+ _id: ObjectId("6527ff67e2012aef74f6a8eb"),
+
+ name: 'Viraj',
+
+ age: 20,
+
+ branch: 'IT',
+
+ course: 'IoT',
+
+ fees: 1500
+
+ }
+
+]

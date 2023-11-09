@@ -1,0 +1,52 @@
+RMDSTIC> db.students.find().limit(3)
+
+[
+
+ {
+
+ _id: ObjectId("6527ff67e2012aef74f6a8e6"),
+
+ name: 'Sharan',
+
+ age: 20,
+
+ branch: 'CS',
+
+ course: 'IoT',
+
+ fees: 1200
+
+ },
+
+ {
+
+ _id: ObjectId("6527ff67e2012aef74f6a8e8"),
+
+ name: 'Taniya',
+age: 20,
+
+ branch: 'IT',
+
+ course: 'ADBMS',
+
+ fees: 1500
+
+ },
+
+ {
+
+ _id: ObjectId("6527ff67e2012aef74f6a8e9"),
+
+ name: 'Geetanjali',
+
+ age: 20,
+
+ branch: 'ENTC',
+
+ course: 'Cyber Security',
+
+ fees: 1200
+
+ }
+
+]

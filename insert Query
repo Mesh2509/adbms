@@ -51,3 +51,163 @@ RMDSTIC> db.students.insertMany([
 ... course:"IoT",
 
 ... fees:1500
+},
+
+...
+
+... {
+
+... name:"Taniya",
+
+... age:20,
+
+... branch:"IT",
+
+... course:"ADBMS",
+
+... fees:1500
+
+... },
+
+...
+
+... {
+
+... name:"Geetanjali",
+
+... age:20,
+
+... branch:"ENTC",
+
+... course:"Cyber Security",
+
+... fees:1200
+
+... },
+
+...
+
+... {
+
+... name:"Dheeraj",
+
+... age:20,
+
+... branch:"IT",
+
+... course:"ADBMS",
+
+... fees:1500
+
+... },
+
+...
+
+... {
+
+... name:"Viraj",
+
+... age:20,
+
+... branch:"IT",
+
+... course:"IoT",
+
+... fees:1500
+
+... },
+
+...
+
+... {
+
+... name:"Arya",
+
+... age:20,
+
+... branch:"CS",
+
+... course:"Cyber Security",
+
+... fees:1200
+
+... },
+
+...
+
+... {
+
+... name:"Rohan",
+
+... age:20,
+
+... branch:"CS",
+
+... course:"ADBMS",
+
+... fees:1500
+... },
+
+...
+
+... {
+
+... name:"Payal",
+
+... age:20,
+
+... branch:"ENTC",
+
+... course:"IoT",
+
+... fees:1200
+
+... },
+
+...
+
+... {
+
+... name:"Shruti",
+
+... age:20,
+
+... branch:"CS",
+
+... course:"Blockchain",
+
+... fees:1200
+
+... }
+
+... ])
+
+{
+
+ acknowledged: true,
+
+ insertedIds: {
+
+ '0': ObjectId("6527ff67e2012aef74f6a8e6"),
+
+ '1': ObjectId("6527ff67e2012aef74f6a8e7"),
+
+ '2': ObjectId("6527ff67e2012aef74f6a8e8"),
+
+ '3': ObjectId("6527ff67e2012aef74f6a8e9"),
+
+ '4': ObjectId("6527ff67e2012aef74f6a8ea"),
+
+ '5': ObjectId("6527ff67e2012aef74f6a8eb"),
+
+ '6': ObjectId("6527ff67e2012aef74f6a8ec"),
+
+ '7': ObjectId("6527ff67e2012aef74f6a8ed"),
+
+ '8': ObjectId("6527ff67e2012aef74f6a8ee"),
+
+ '9': ObjectId("6527ff67e2012aef74f6a8ef")
+
+ }
+
+}

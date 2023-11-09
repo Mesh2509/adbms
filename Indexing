@@ -1,0 +1,17 @@
+> db.teacher.ensureIndex({t_id:2});
+
+{
+
+"createdCollectionAuto
+
+matically" : false,
+
+"numIndexesBefore" :
+
+1,
+
+"numIndexesAfter" : 2,
+
+"ok" : 1
+
+}

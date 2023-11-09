@@ -1,0 +1,43 @@
+RMDSTIC> db.subjects.insertMany([{class:["DBMS","ML","OOP"]},
+
+... {class:["OOP","BCN","M3"]},
+
+... {class:["DBMS","OOP","LDCO"]}])
+
+{
+
+ acknowledged: true,
+
+ insertedIds: {
+
+ '0': ObjectId("652826fd87e20636d269924f"),
+
+ '1': ObjectId("652826fd87e20636d2699250"),
+
+ '2': ObjectId("652826fd87e20636d2699251")
+
+ }
+
+}
+
+RMDSTIC> db.subjects.find({class:{$all:["DBMS","OOP"]}})
+
+[
+
+ {
+
+ _id: ObjectId("652826fd87e20636d269924f"),
+
+ class: [ 'DBMS', 'ML', 'OOP' ]
+
+ },
+
+ {
+
+ _id: ObjectId("652826fd87e20636d2699251"),
+
+ class: [ 'DBMS', 'OOP', 'LDCO' ]
+
+ }
+
+]

@@ -1,0 +1,11 @@
+Deleting single document:
+
+RMDSTIC> db.students.deleteOne({name:"Shruti"})
+
+{ acknowledged: true, deletedCount: 1 }
+
+Deleting many documents:
+
+RMDSTIC> db.students.deleteMany({branch:"CS"})
+
+{ acknowledged: true, deletedCount: 3 }

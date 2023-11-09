@@ -1,0 +1,53 @@
+db.students.insertOne({
+
+... name:"Sumit",
+
+... age:20,
+
+... branch:"IT",
+
+... course:"ADBMS",
+
+... fees:1500
+
+... })
+
+{
+
+ acknowledged: true,
+
+ insertedId: ObjectId("6527ea847d21470a294bb8ce")
+
+}
+
+Inserting multiple students (batch insert):
+
+RMDSTIC> db.students.insertMany([
+
+... {
+
+... name:"Tanvi",
+
+... age:20,
+
+... branch:"IT",
+
+... course:"Blockchain",
+
+... fees:1200
+
+... },
+
+...
+
+... {
+
+... name:"Rohit",
+
+... age:20,
+
+... branch:"CS",
+
+... course:"IoT",
+
+... fees:1500

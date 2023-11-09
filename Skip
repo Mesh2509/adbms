@@ -1,0 +1,53 @@
+RMDSTIC> db.students.find().skip(3)
+
+[
+
+ {
+
+ _id: ObjectId("6527ff67e2012aef74f6a8ea"),
+
+ name: 'Dheeraj',
+
+ age: 20,
+
+ branch: 'IT',
+
+ course: 'ADBMS',
+
+ fees: 1500
+
+ },
+
+ {
+
+ _id: ObjectId("6527ff67e2012aef74f6a8eb"),
+
+ name: 'Viraj',
+
+ age: 20,
+
+ branch: 'IT',
+
+ course: 'IoT',
+
+ fees: 1500
+
+ },
+
+ {
+
+ _id: ObjectId("6527ff67e2012aef74f6a8ee"),
+
+ name: 'Payal',
+
+ age: 20,
+
+ branch: 'ENTC',
+
+ course: 'IoT',
+
+ fees: 1200
+
+ }
+
+]

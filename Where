@@ -1,0 +1,23 @@
+RMDSTIC> db.students.find({$where:function()
+
+... {return this.name==="Taniya"}})
+
+[
+
+ {
+
+ _id: ObjectId("6527ff67e2012aef74f6a8e8"),
+
+ name: 'Taniya',
+
+ age: 20,
+
+ branch: 'IT',
+
+ course: 'ADBMS',
+
+ fees: 1500
+
+ }
+
+]

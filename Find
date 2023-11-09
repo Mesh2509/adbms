@@ -1,0 +1,250 @@
+RMDSTIC> db.students.find()
+
+[
+
+ {
+
+ _id: ObjectId("6527ff67e2012aef74f6a8e6"),
+
+ name: 'Sharan',
+
+ age: 20,
+
+ branch: 'CS',
+
+ course: 'IoT',
+
+ fees: 1200
+
+ },
+
+ {
+
+ _id: ObjectId("6527ff67e2012aef74f6a8e8"),
+
+ name: 'Taniya',
+
+ age: 20,
+
+ branch: 'IT',
+
+ course: 'ADBMS',
+
+ fees: 1500
+
+ },
+
+ {
+
+ _id: ObjectId("6527ff67e2012aef74f6a8e9"),
+
+ name: 'Geetanjali',
+
+ age: 20,
+
+ branch: 'ENTC',
+
+ course: 'Cyber Security',
+
+ fees: 1200
+
+ },
+
+ {
+
+ _id: ObjectId("6527ff67e2012aef74f6a8ea"),
+
+ name: 'Dheeraj',
+
+ age: 20,
+
+ branch: 'IT',
+
+ course: 'ADBMS',
+
+ fees: 1500
+
+ },
+ {
+
+ _id: ObjectId("6527ff67e2012aef74f6a8eb"),
+
+ name: 'Viraj',
+
+ age: 20,
+
+ branch: 'IT',
+
+ course: 'IoT',
+
+ fees: 1500
+
+ },
+
+ {
+
+ _id: ObjectId("6527ff67e2012aef74f6a8ee"),
+
+ name: 'Payal',
+
+ age: 20,
+
+ branch: 'ENTC',
+
+ course: 'IoT',
+
+ fees: 1200
+
+ }
+
+]
+
+RMDSTIC> db.students.find({branch:"IT"})
+
+[
+
+ {
+
+ _id: ObjectId("6527ff67e2012aef74f6a8e8"),
+
+ name: 'Taniya',
+
+ age: 20,
+
+ branch: 'IT',
+
+ course: 'ADBMS',
+
+ fees: 1500
+
+ },
+
+ {
+
+ _id: ObjectId("6527ff67e2012aef74f6a8ea"),
+
+ name: 'Dheeraj',
+
+ age: 20,
+
+ branch: 'IT',
+
+ course: 'ADBMS',
+
+ fees: 1500
+
+ },
+
+ {
+
+ _id: ObjectId("6527ff67e2012aef74f6a8eb"),
+
+ name: 'Viraj',
+
+ age: 20,
+
+ branch: 'IT',
+
+ course: 'IoT',
+
+ fees: 1500
+
+ }
+
+]
+RMDSTIC> db.students.find({name:"Taniya"})
+
+[
+
+ {
+
+ _id: ObjectId("6527ff67e2012aef74f6a8e8"),
+
+ name: 'Taniya',
+
+ age: 20,
+
+ branch: 'IT',
+
+ course: 'ADBMS',
+
+ fees: 1500
+
+ }
+
+]
+
+RMDSTIC> db.students.find({fees:{$gt:1200}})
+
+[
+
+ {
+
+ _id: ObjectId("6527ff67e2012aef74f6a8e8"),
+
+ name: 'Taniya',
+
+ age: 20,
+
+ branch: 'IT',
+
+ course: 'ADBMS',
+
+ fees: 1500
+
+ },
+
+ {
+
+ _id: ObjectId("6527ff67e2012aef74f6a8ea"),
+
+ name: 'Dheeraj',
+
+ age: 20,
+
+ branch: 'IT',
+
+ course: 'ADBMS',
+
+ fees: 1500
+
+ },
+
+ {
+
+ _id: ObjectId("6527ff67e2012aef74f6a8eb"),
+
+ name: 'Viraj',
+
+ age: 20,
+
+ branch: 'IT',
+
+ course: 'IoT',
+
+ fees: 1500
+
+ }
+
+]
+
+RMDSTIC> db.students.find({branch:"CS", fees:1200})
+
+[
+
+ {
+
+ _id: ObjectId("6527ff67e2012aef74f6a8e6"),
+
+ name: 'Sharan',
+
+ age: 20,
+
+ branch: 'CS',
+ course: 'IoT',
+
+ fees: 1200
+
+ }
+
+]

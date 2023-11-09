@@ -1,0 +1,17 @@
+RMDSTIC> db.students.replaceOne({},{name:"Sharan", age:20, branch:"CS", course:"IoT", 
+
+fees:1200})
+
+{
+
+ acknowledged: true,
+
+ insertedId: null,
+
+ matchedCount: 1,
+
+ modifiedCount: 1,
+
+ upsertedCount: 0
+
+}
